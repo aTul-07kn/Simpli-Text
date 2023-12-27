@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Simpli-Text/static/css/main.844312d3.css",
+    "main.js": "/Simpli-Text/static/js/main.a7cd9828.js",
+    "static/js/787.edfff2a0.chunk.js": "/Simpli-Text/static/js/787.edfff2a0.chunk.js",
+    "index.html": "/Simpli-Text/index.html",
+    "main.844312d3.css.map": "/Simpli-Text/static/css/main.844312d3.css.map",
+    "main.a7cd9828.js.map": "/Simpli-Text/static/js/main.a7cd9828.js.map",
+    "787.edfff2a0.chunk.js.map": "/Simpli-Text/static/js/787.edfff2a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.844312d3.css",
+    "static/js/main.a7cd9828.js"
+  ]
+}
