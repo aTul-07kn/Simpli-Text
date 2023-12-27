@@ -9,9 +9,11 @@ export default function Alert(props) {
   return (
     //is alert is not null then only the component will load, otherwise it will not load
     //if alert==true
-    props.alert &&
-    <div class={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
-        <strong>{capitalize(props.alert.type)}: </strong>{props.alert.mesg}
+    <div style={{height:50}}>
+      {props.alert &&
+      <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
+          <strong>{capitalize(props.alert.type)}: </strong>{props.alert.mesg}
+      </div>}
     </div>
   )
 }

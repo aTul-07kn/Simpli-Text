@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TextSummary(props) {
   let text=props.inpText;
-  let words=text.trim().split(" ").length;
+  let words=text.trim().split(/\s+/).length;
   if(text===""){
     words=0;
   }
